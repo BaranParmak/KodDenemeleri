@@ -237,6 +237,7 @@ def main():
                     else:
                         is_biting = False
 
+                
                 # -------- TOUCH TIME FILTER --------
                 if current_touch:
                     if not is_touching:
