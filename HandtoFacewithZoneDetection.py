@@ -119,8 +119,6 @@ ZONE_POLY_SCALE: dict[str, float] = {
     "forehead": 1.25,
 }
 
-# Ã–ncelik sadece eÅŸit uzaklÄ±k durumunda kullanÄ±lÄ±r (tiebreaker).
-# KÃ¼Ã§Ã¼k/spesifik bÃ¶lgeler Ã¶nce â†’ eÅŸit puanda burun aÄŸÄ±zdan Ã¶nce gelir.
 ZONE_PRIORITY = [
     "nose", "mouth", "chin",
     "left_eye", "right_eye",
@@ -128,10 +126,7 @@ ZONE_PRIORITY = [
     "forehead",
 ]
 
-# Parmak ucu landmark indeksleri â€” yÃ¼ze temas eden bÃ¶lgeler bunlar.
-# AvuÃ§ (palm) kullanmak yanlÄ±ÅŸ: el saÄŸdan alÄ±na gelince
-# avuÃ§ centroid'i kulaÄŸa/yanaÄŸa daha yakÄ±n kalÄ±r.
-# 4=baÅŸ parmak ucu, 8=iÅŸaret, 12=orta, 16=yÃ¼zÃ¼k, 20=serÃ§e
+
 FINGERTIP_LANDMARKS = [4, 8, 12, 16, 20]
 
 # Orta eklemler â€” sadece parmak ucu yoksa fallback
